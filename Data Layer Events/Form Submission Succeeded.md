@@ -6,8 +6,7 @@
 ```js
 window.dataLayer = window.dataLayer || [];
 dataLayer.push({
-  "event": "form_complete",
-  "detailed_event": "Form Submission Succeeded"
+  "event": "Form Submission Succeeded"
 });
 ```
 
