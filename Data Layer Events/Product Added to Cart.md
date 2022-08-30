@@ -14,8 +14,7 @@ dataLayer.push({
         "items": [
             {
                 "item_id": "<item_id>",
-                "item_name": "<item_name>",
-                "sku": "<sku>"
+                "item_name": "<item_name>"
             }
         ],
         "value": <value>
@@ -30,7 +29,6 @@ dataLayer.push({
 |ecommerce.currency|string|The currency, in 3-letter ISO 4217 format.||||||||
 |ecommerce.items[n].item_id|string|Item ID \(context-specific\).The product primary ID \(SKU or UPC\)|SKU\_12345|||||||
 |ecommerce.items[n].item_name|string|Item Name \(context-specific\).|jeggings|||||||
-|ecommerce.items[n].sku|string|Captures the ID associated with CTA links used.|34567890, 4567890, 00155-large-cornflower|||||||
 |ecommerce.value|number|The monetary value of the event.|7.77, 239.55, 659|||||||
 
 
